@@ -24,18 +24,21 @@ include("./backend.php")
     <form action="<?= htmlspecialchars($_SERVER["PHP_SELF"]) ?>" method="POST">
       <!-- username input div  -->
       <div class="form-group">
+        <!-- label for name  -->
         <label for="name">Name:</label>
+        <!-- input for name  -->
         <input type="text" id="name" name="name" placeholder="Your name" required>
       </div>
       <div class="form-group">
         <!-- email input div  --> 
         <label for="email">Email:</label>
-        <input type="email" id="email" name="email" placeholder="Your email" required>
+        <!-- label for email  -->
+        <input type="email" id="email" name="email" placeholder="Your email" required>    
+        <!-- input for email  -->
       </div>
       <!-- button to submit form  -->
       <button type="submit" name="btn">Submit</button>
     </form>
   </div>
 </body>
-
 </html>
