@@ -1,16 +1,13 @@
 <?php
 include("./backend.php")
-
 ?>
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <title>User Input Form</title>
   <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
   <!-- form container  -->
   <div class="form-container">
@@ -38,5 +35,4 @@ include("./backend.php")
     </form>
   </div>
 </body>
-
 </html>
