@@ -3,11 +3,13 @@ include("./backend.php")
 ?>
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <title>User Input Form</title>
+  <title>Automated email </title>
   <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
   <!-- form container  -->
   <div class="form-container">
@@ -26,7 +28,7 @@ include("./backend.php")
         <input type="text" id="name" name="name" placeholder="Your name" required>
       </div>
       <div class="form-group">
-        <!-- email input div  -->
+        <!-- email input div  --> 
         <label for="email">Email:</label>
         <input type="email" id="email" name="email" placeholder="Your email" required>
       </div>
@@ -35,4 +37,5 @@ include("./backend.php")
     </form>
   </div>
 </body>
+
 </html>
