@@ -1,64 +1,79 @@
+/* initially setting margin and padding to 0 */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* styling body  */
 body {
-    font-family: Arial, sans-serif;
-    background: #f4f6f8;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-  }
+  font-family: Arial, sans-serif;
+  background: #f4f6f8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
 
-  .form-container {
-    background: white;
-    padding: 30px;
-    border-radius: 12px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-    width: 100%;
-    max-width: 400px;
-  }
+/* form container  */
+.form-container {
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+}
 
-  h2 {
-    text-align: center;
-    margin-bottom: 20px;
-    color: #333;
-  }
+/* h2 tag  */
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
 
-  .form-group {
-    margin-bottom: 15px;
-  }
+/* form group div  */
+.form-group {
+  margin-bottom: 15px;
+}
 
-  label {
-    display: block;
-    margin-bottom: 6px;
-    color: #555;
-  }
+/* labels  */
+label {
+  display: block;
+  margin-bottom: 6px;
+  color: #555;
+}
 
-  input[type="text"],
-  input[type="email"] {
-    width: 100%;
-    padding: 10px;
-    border-radius: 6px;
-    border: 1px solid #ccc;
-    transition: 0.2s border-color;
-  }
+/* input types  */
+input[type="text"],
+input[type="email"] {
+  width: 100%;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  transition: 0.2s border-color;
+}
 
-  input[type="text"]:focus,
-  input[type="email"]:focus {
-    border-color: #007bff;
-    outline: none;
-  }
+/* focus on input types  */
+input[type="text"]:focus,
+input[type="email"]:focus {
+  border-color: #007bff;
+  outline: none;
+}
 
-  button {
-    width: 100%;
-    padding: 12px;
-    background-color: #007bff;
-    color: white;
-    border: none;
-    border-radius: 6px;
-    cursor: pointer;
-    font-size: 16px;
-    transition: 0.2s background-color;
-  }
+/* button  */
+button {
+  width: 100%;
+  padding: 12px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: 0.2s background-color;
+}
 
-  button:hover {
-    background-color: #0056b3;
-  }
+/* button hover  */
+button:hover {
+  background-color: #0056b3;
+}
