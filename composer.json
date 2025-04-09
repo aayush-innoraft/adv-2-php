@@ -1,0 +1,17 @@
+{
+    "name": "root/advance-php",
+    "autoload": {
+        "psr-4": {
+            "Root\\AdvancePhp\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "aayush-innoraft",
+            "email": "aayush.pathak@innoraft.com"
+        }
+    ],
+    "require": {
+        "phpmailer/phpmailer": "^6.9"
+    }
+}
